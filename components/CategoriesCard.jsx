@@ -15,9 +15,7 @@ import Link from "next/link";
 
 const client = new Client();
 
-client
-  .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("64a69dbd67db0755a992");
+client.setEndpoint(process.env.NEXT_PUBLIC_PROJECT_HOST).setProject(process.env.NEXT_PUBLIC_PROJECT_ID);
 
 const CategoriesCard = () => {
   const [categories, setCategories] = useState([]);
