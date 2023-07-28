@@ -1,3 +1,5 @@
+"use client";
+
 import CategoriesCard from "@components/CategoriesCard";
 
 const Categories = () => {

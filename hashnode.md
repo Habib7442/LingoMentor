@@ -12,12 +12,13 @@ Our platform provides interactive lessons, vocabulary building exercises, pronun
 
 ## Tech Stack
 
-- React.js: We used React.js for building the frontend of LingoMentor, allowing us to create a dynamic and responsive user interface.
+- Next.js: We used Next.js for building the frontend of LingoMentor, allowing us to create a dynamic and responsive user interface.
 - Appwrite Cloud: Appwrite's suite of services played a crucial role in our project:
   - Authentication: We utilized Appwrite's authentication service for user registration, login, and secure access to user-specific data.
   - Database: Appwrite's database service enabled us to store and manage user profiles, lesson data, and learning progress.
   - Cloud Functions (Node.js): We leveraged Appwrite's cloud functions to implement server-side logic, process user inputs, and perform language-related operations.
 - Tailwind CSS: We used Tailwind CSS for efficient and customizable styling, ensuring a visually appealing and user-friendly interface.
+- Framer Motion: We used Framer Motion for creating fluid animations and transitions, enhancing the user experience.
 - Vercel: Our project is deployed on Vercel, providing us with seamless hosting, automatic deployments, and scalability.
 
 Appwrite proved to be an invaluable tool in our development process. Its robust authentication system allowed us to implement secure user registration and authentication, ensuring the privacy and integrity of user data. The database service provided a reliable and scalable solution for storing and retrieving user profiles and learning progress. With the help of Appwrite's cloud functions, we were able to handle complex language-related operations and deliver personalized learning experiences to our users.
@@ -28,11 +29,11 @@ During the development process, we encountered some challenges, including integr
 
 ## Public Code Repo
 
-You can access the source code of LingoMentor on our GitHub repository: [GitHub Repository Link](https://github.com/yourusername/lingomentor)
+You can access the source code of LingoMentor on our GitHub repository: [GitHub Repository Link](https://github.com/Habib7442/LingoMentor)
 
 ## Demo Link
 
-Watch the demo recording of LingoMentor in action: [Demo Recording Link](https://youtube.com/yourvideolink)
+Watch the demo recording of LingoMentor in action: [Demo Recording Link](https://youtu.be/vzAQbjWMz04)
 
 ---
 

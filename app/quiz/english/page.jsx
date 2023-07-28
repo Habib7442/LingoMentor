@@ -13,7 +13,6 @@ const EnglishQuiz = () => {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
   const [showModal, setShowModal] = useState(false);
-  const [totalScore, setTotalScore] = useState(0);
   const [correctAnswer, setCorrectAnswer] = useState([]);
 
   useEffect(() => {

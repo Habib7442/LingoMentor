@@ -77,7 +77,7 @@ const Home = () => {
         >
           Inspire, Create & Connect <br className="max-md:hidden" />
           <span className="orange_gradient text-center">
-            "Language Empowerment Hub"
+            &quot;Language Empowerment Hub&quot;
           </span>
         </motion.h1>
         <motion.p
@@ -109,7 +109,7 @@ const Home = () => {
             animate={{ y: 0, opacity: 1 }}
           >
             <p className="text-gray-800 text-lg">
-              What has keys but can't open locks?
+              What has keys but cannot open locks?
             </p>
             <div className="my-4">
               <motion.p
